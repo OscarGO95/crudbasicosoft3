@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'CrudBasico.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'crudbasico',
+        'NAME': 'basecrudbasico',
         'USER':'root',
         'PASSWORD':'',
         'OPTIONS': {
