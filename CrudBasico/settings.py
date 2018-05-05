@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'crudbasico',
         'USER':'root',
-        'PASSWORD':'',
+        'PASSWORD':'admin',
         'OPTIONS': {
             'sql_mode': 'traditional',
         }
