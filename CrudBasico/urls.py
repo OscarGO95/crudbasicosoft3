@@ -16,6 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from appcrudbasico import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.clsMaestros.index),
+    path('createteacher/', views.clsMaestros.create),
+    path('updateteacher/<int:id>', views.clsMaestros.update),
+    path('deleteteacher/<int:id>', views.clsMaestros.delete)
 ]
